@@ -21,8 +21,12 @@
 
 // ** MySQL 設定 - この情報はホスティング先から入手してください。 ** //
 
-/** 環境変数からClearDBのURLを読み込む */
-$db = parse_url($_ENV["CLEARDB_DATABASE_URL"]);
+// Herokuで実行するときは環境変数にClearDBのURLが設定されます。
+// 開発環境では，PHP-FPMのパラメータに設定してください。
+if (isset($_ENV["CLEARDB_DATABASE_URL"]))
+    $db = parse_url($_ENV["CLEARDB_DATABASE_URL"]);
+else
+    $db = parse_url($_SERVER["CLEARDB_DATABASE_URL"]);
 
 /** WordPress のためのデータベース名 */
 define('DB_NAME', trim($db["path"],"/"));
