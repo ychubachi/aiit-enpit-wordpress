@@ -1,0 +1,200 @@
+* {
+ margin          : 0px;
+ padding         : 0px;
+}
+
+html {
+ height          : auto;
+}
+
+body {
+ font-family     : "‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3", verdana, arial, sans-serif;
+ font-size       : 13px;
+ line-height     : 1.8em;
+ height          : auto;
+ margin          : 0px;
+ padding         : 0px;
+ color           : #000;
+}
+
+body.rssBody {
+ background      : red !important;
+}
+
+.mincho {
+  font-family    : "‚l‚r ‚o–¾’©","ƒqƒ‰ƒMƒm–¾’© Pro W6","Hiragino Mincho Pro",serif !important;
+}
+
+.roma {
+ font-family     : "TitilliumMaps",helvetica,sans-serif;
+}
+
+.osaka {
+ font-family     : Osaka,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3", verdana, arial, sans-serif !important;
+}
+
+.hgp {
+  font-family    : "HGP‘n‰pŠpºŞ¼¯¸UB";
+}
+
+.meiryo {
+ font-family     : "ƒƒCƒŠƒI","Meiryo",arial,"ƒqƒ‰ƒMƒmŠpƒS Pro W3","Hiragino Kaku Gothic Pro",Osaka,"‚l‚r ‚oƒSƒVƒbƒN","MS PGothic",Sans-Serif !important;
+}
+
+.mspG {
+ font-family     : "‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3", verdana, arial, sans-serif !important;
+}
+
+.arial {
+ font-family     : 'arial black','ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro',sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka !important;
+}
+
+.antiAreas {
+ font-family     : "Lucida Grande","Hiragino Kaku Gothic Pro","ƒqƒ‰ƒMƒmŠpƒS Pro W3",Osaka,"‚l‚r ‚oƒSƒVƒbƒN","MS PGothic",sans-serif !important;
+}
+
+.hiragino {
+ font-family     : 'ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro',sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka !important;
+}
+
+.inherit {
+ font-family     : 'inherit','Hiragino Kaku Gothic Pro',sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka !important;
+}
+
+.underline {
+ text-decoration : underline;
+}
+
+h1,h2,h3,h4,h5,h6 {
+ font-size       : 1.0em;
+}
+
+ul {
+ list-style-type : none;
+}
+
+ul.normalList {
+ list-style-type : disc;
+ margin-left     : 15px;
+}
+
+dl.inlineList dt,
+dl.inlineList dd,
+ul.inlineList li,
+ol.inlineList li,
+.inline {
+ display         : inline;
+}
+
+.curriculumTab01 tr td,
+.curriculumTab02 tr td {
+ border-right    : 1px solid #be1823;
+ border-bottom   : 1px solid #be1823;
+}
+
+.curriculumTab01 tr td {
+ padding         : 5px;
+ text-align      : center;
+}
+
+.curriculumTab01 tr td.noBdRight {
+ text-align      : center;
+ border-right    : none;
+}
+
+/* grayLink */
+a.grayLink:link,
+a.grayLink:visited,
+a.grayLink:hover {
+ color           : #6e6d6e;
+ text-decoration : none;
+}
+a.grayLink:hover {
+ text-decoration : underline;
+}
+/* grayLink */
+
+/* copy */
+#copy a:link,
+#copy a:visited,
+#copy a:hover {
+ color           : #000;
+ text-decoration : none;
+}
+#copy a:hover {
+ text-decoration : underline;
+}
+/* copy */
+
+/* background */
+.whiteBg   { background : #fff !important; }
+.greenBg   { background : #119493 !important; }
+.blueBg    { background : #1e91b9 !important; }
+.redBg     { background : #951b21 !important; }
+
+/* color */
+.white     { color:#fff !important; }
+.red       { color:#be1823 !important; }
+.blue      { color:#447fd1 !important; }
+.black     { color:#333333 !important; }
+/* background */
+
+
+
+.stdH2,
+.stdTurnH2 {
+ font-family     : 'ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro',"‚l‚r ‚oƒSƒVƒbƒN","HGP‘n‰pŠpºŞ¼¯¸UB",sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka !important;
+ font-size       : 1.3em;
+ font-weight     : bold;
+ padding         : 5px 10px;
+ margin          : 0px 0px 15px 0px;
+}
+
+.stdH2 {
+ background      : #dcdcdd;
+ border-left     : 8px solid #be1823;
+}
+
+.stdTurnH2 {
+ background      : #bf1a24;
+ border-left     : 8px solid #dcdddd;
+ color           : #fff;
+}
+
+.discList li {
+ background      : url(../../images/ic_disc.gif) no-repeat 0 0.4em;
+ padding         : 0px 0px 0px 15px;
+ margin          : 0px 0px 5px 0px;
+}
+
+.linkPageList li {
+ background      : url(../../images/ic_disc.gif) no-repeat 0 0.5em;
+ padding         : 0px 0px 0px 15px;
+ margin          : 0px 0px 10px 0px;
+}
+
+.linkPageList li a {
+ background      : url(../../images/ic_link.gif) no-repeat right;
+ padding         : 7px 32px 7px 0px;
+ color           : #000;
+ font-size       : 1.1em;
+ text-decoration : underline;
+}
+
+.linkPageList li a:hover {
+ text-decoration : none;
+}
+
+#breadcrumbsList li {
+ background      : url(../../images/ic_breadcrumbs.gif) no-repeat 2px 45%;
+ padding         : 0px 0px 0px 17px;
+ display         : inline;
+}
+
+#breadcrumbsList li.home {
+ background      : none;
+ padding         : 0px;
+}
+
+#breadcrumbsList li.now {
+}

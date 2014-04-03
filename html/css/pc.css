@@ -1,0 +1,585 @@
+/***********************************************/
+/*   index                                     */
+/*=============================================*/
+/*   01.common                                 */
+/*   02.layout                                 */
+/*   03.header                                 */
+/*   04.gNavi                                  */
+/*   05.sNavi                                  */
+/*   06.main                                   */
+/*   07.footer                                 */
+/*   08.img                                    */
+/*   09.text                                   */
+/*   10.table                                  */
+/*   11.font                                   */
+/*   12.link                                   */
+/*   99.other                                  */
+/*=============================================*/
+/***********************************************/
+
+
+/***********************************************
+  01.common
+***********************************************/
+
+.fLeft {
+ float           : left;
+}
+
+.fRight {
+ float           : right;
+}
+
+.halfBlock {
+ width           : 49.5%;
+ float           : left;
+}
+
+.fLeft49 {
+ width           : 49.5%;
+ float           : left;
+}
+
+.fRight49 {
+ width           : 49.5%;
+ float           : right;
+}
+
+.thirdBlock {
+ width           : 33.3%;
+ float           : left;
+}
+
+.fourthBlock {
+ width           : 24.9%;
+ float           : left;
+}
+
+/***********************************************
+  02.layout
+***********************************************/
+#wrap {
+ width           : 100%;
+ min-width       : 950px;
+}
+
+#wrapperAll {
+ width           : px;
+ margin          : 0 auto;
+}
+
+
+.pageTop {
+ width           : 100%;
+ text-align      : right;
+ padding         : 10px 0px 20px;
+}
+
+#pageTopArea {
+ width           : 100%;
+ padding         : 50px 0px 10px;
+}
+
+#pageTop {
+ width           : 950px;
+ margin          : 0 auto;
+ text-align      : right;
+}
+
+#container {
+ width           : 850px;
+ margin          : 0 auto;
+}
+
+#breadcrumbsList {
+ padding         : 15px 0px;
+ font-size       : 1.0em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************
+  03.header
+***********************************************/
+
+#headerArea {
+ background      : url(../images/bg_headerarea.jpg) repeat-x;
+ height          : 78px;
+}
+
+h1 {
+ background      : url(../images/bg_header.jpg) no-repeat;
+ width           : 950px;
+ margin          : 0 auto;
+ height          : 47px;
+ padding         : 31px 0px 0px 0px;
+}
+
+#hNav {
+ width           : 920px;
+ margin          : 0 auto;
+ text-align      : right;
+ padding         : 10px 0px 6px 0px;
+}
+
+#hNav li {
+ display         : inline;
+ font-size       : 15px;
+ font-weight     : bold;
+ margin          : 0px 0px 0px 10px;
+}
+
+#hNav li a {
+ background      : url(../images/ic_arrow_01_off.gif) no-repeat;
+ padding         : 0px 0px 0px 20px;
+ color           : #000;
+}
+
+#hNav li a:hover {
+ background      : url(../images/ic_arrow_01_on.gif) no-repeat;
+ text-decoration : none;
+}
+
+
+
+
+
+
+/***********************************************
+  04.gNavi
+***********************************************/
+
+#gNavArea {
+ background      : url(../images/bg_gnavarea.gif) repeat-x bottom;
+ height          : 30px;
+}
+
+#gNavList {
+ width           : 923px;
+ margin          : 0 auto;
+ text-align      : center;
+}
+
+#gNavList li {
+ display         : inline;
+}
+
+
+/***********************************************
+  05.sNavi
+***********************************************/
+
+
+/***********************************************
+  06.main
+***********************************************/
+
+#indexVisual {
+ border-bottom   : 4px solid #be1823;
+ text-align      : center;
+ padding         : 30px 0px;
+ margin          : 0px 0px 15px 0px;
+}
+
+.inlineDiscList li {
+ background      : url(../images/ic_disc.gif) no-repeat 0 0.1em;
+ padding         : 0px 0px 0px 15px;
+ margin          : 0px 20px 0px 0px;
+ display         : inline;
+ font-size       : 1.2em;
+}
+
+#enpit {
+ background      : url("../images/img_index_04.jpg") no-repeat scroll 0 0 transparent;
+ float           : right;
+ height          : 80px;
+ padding         : 244px 0 0;
+ text-align      : right;
+ width           : 340px;
+}
+
+#enpit li {
+ height          : 22px;
+ margin          : 0px 0px 4px 0px;
+}
+
+.indexH2 {
+ border-bottom   : 4px solid #be1823;
+ overflow        : hidden;
+}
+
+.indexH2 h2 {
+ width           : 49%;
+ float           : left;
+}
+
+.indexH2 a {
+ width           : 49%;
+ float           : right;
+ display         : block;
+ text-align      : right;
+ padding         : 3px 0px 0px 15px;
+ background      : url(../images/ic_arrow_01_off.gif) no-repeat 346px 6px;
+ font-weight     : bold;
+ color           : #000 !important;
+}
+
+.indexH2 a:hover {
+ background      : url(../images/ic_arrow_01_on.gif) no-repeat 346px 6px;
+ text-decoration : none;
+}
+
+.programFlow {
+ background      : url(../images/ic_arrow.gif) no-repeat center bottom;
+ padding         : 0px 0px 56px 0px;
+ margin          : 0px 0px 10px 0px;
+}
+
+.bdLeftTt {
+ border-left     : 8px solid #be1823;
+ font-size       : 1.4em;
+ font-weight     : bold;
+ padding         : 7px 10px;
+ margin          : 0px 0px 15px 0px;
+}
+
+.linkPageList {
+ width           : 95%;
+ margin          : 0 auto;
+}
+
+.pagetop {
+ text-align      : right;
+ width           : 850px;
+ margin          : 0 auto 10px;
+}
+
+.pagetop a {
+ background      : url(../images/ic_pagetop_off.gif) no-repeat 0 50%;
+ padding         : 10px 0px 10px 23px;
+ font-weight     : bold;
+ color           : #000 !important;
+}
+
+.pagetop a:hover {
+ background      : url(../images/ic_pagetop_on.gif) no-repeat 0 50%;
+ color           : #78171b !important;
+}
+
+
+
+
+/***********************************************
+  07.footer
+***********************************************/
+
+#footerArea {
+ border-top      : 4px solid #be1823;
+}
+
+#copy {
+ width           : 850px;
+ margin          : 0 auto;
+ text-align      : center;
+ padding         : 10px 0px;
+}
+
+/***********************************************
+  08.img
+***********************************************/
+
+img {
+ border          : 0px;
+}
+
+/***********************************************
+  9.text
+***********************************************/
+
+
+/***********************************************
+  10.table
+***********************************************/
+table {
+ border-collapse : collapse;
+}
+
+.transparentTab {
+ width           : 100%;
+}
+
+.transparentTab tr th {
+ text-align      : left;
+ color           : #be1823;
+ padding         : 0px 0px 3px 0px;
+ width           : 8em;
+ vertical-align  : middle;
+}
+
+.transparentTab tr td {
+ vertical-align  : middle;
+}
+
+.programFlowTab {
+ width           : 100%;
+ border          : 1px solid #be1823;
+}
+
+.programFlowTab tr th {
+ background      : url(../images/bg_th.jpg) repeat-y;
+ width           : 219px;
+ font-size       : 1.5em;
+ color           : #fff;
+ padding         : 20px 0px;
+}
+
+.programFlowTab tr td {
+ padding         : 15px 20px;
+}
+
+.applicationTab {
+ width           : 100%;
+ border-top      : 1px solid #be1823;
+}
+
+.applicationTab tr th {
+ width           : 200px;
+ background      : #f1d6c9;
+ padding         : 10px 0px;
+ border-bottom   : 1px solid #be1823;
+}
+
+.applicationTab tr td {
+ padding         : 20px 20px 20px 35px;
+ border-bottom   : 1px solid #be1823;
+}
+
+.bdDtd {
+ border-bottom   : 1px dashed #be1823 !important;
+}
+
+.bdNone {
+ border          : none !important;
+}
+
+.curriculumTab01,
+.curriculumTab02 {
+ width           : 100%;
+ border-top      : 1px solid #be1823;
+}
+
+.curriculumTab01 tr th,
+.curriculumTab02 tr th {
+ background      : #efefef;
+ text-align      : left;
+ padding         : 5px 20px;
+ color           : #be1823;
+ border-right    : 1px solid #be1823;
+ border-bottom   : 1px solid #be1823;
+}
+
+.curriculumTab02 tr td {
+ padding         : 10px 20px;
+ text-align      : left;
+ border-right    : none;
+}
+
+.curriculumTab02 tr th {
+ width           : 215px;
+}
+
+
+
+
+/***********************************************
+  11.font
+***********************************************/
+
+
+
+
+
+
+
+/***********************************************
+  12.link
+***********************************************/
+
+/* default */
+a:link,
+a:visited,
+a:hover {
+ color           : #245ddb;
+ text-decoration : none;
+}
+a:hover {
+ text-decoration : underline;
+}
+/* default */
+
+/* imgLink */
+.imgLink img:hover {
+ opacity         : 0.70;
+ filter          : alpha(opacity=70);
+ -moz-opacity    : 0.70;
+ -ms-filter      : "alpha(opacity=70)";
+}
+/* imgLink */
+
+/* hGrayLink */
+a.hGrayLink:link,
+a.hGrayLink:visited,
+a.hGrayLink:hover {
+ color           : #000;
+ text-decoration : none;
+}
+a.hGrayLink:hover {
+ color           : #828181;
+ text-decoration : underline;
+}
+/* hGrayLink */
+
+/* url */
+a.url:link,
+a.url:visited,
+a.url:hover {
+ color           : #333;
+ text-decoration : none;
+}
+a.url:hover {
+ text-decoration : underline;
+}
+/* url */
+
+/* borderLink */
+a.borderLink:link,
+a.borderLink:visited,
+a.borderLink:hover {
+ text-decoration : underline !important;
+}
+a.borderLink:hover {
+ text-decoration : none !important;
+}
+/* borderLink */
+
+/* breadcrumbsList */
+#breadcrumbsList a:link,
+#breadcrumbsList a:visited,
+#breadcrumbsList a:hover {
+ color           : #000;
+ text-decoration : none;
+}
+#breadcrumbsList a:hover {
+ text-decoration : underline;
+}
+/* breadcrumbsList */
+
+/* topPathList */
+#topPathList a:link,
+#topPathList a:visited,
+#topPathList a:hover {
+ color           : #564842;
+ text-decoration : none;
+}
+#topPathList a:hover {
+ text-decoration : underline;
+}
+/* topPathList */
+
+/* footer */
+#footer a:link,
+#footer a:visited,
+#footer a:hover {
+ color           : #245ddb;
+ text-decoration : none;
+}
+#footer a:hover {
+ text-decoration : underline;
+}
+/* footer */
+
+/* pageTop */
+#pageTop a:link,
+#pageTop a:visited,
+#pageTop a:hover {
+ color           : #447fd1;
+ text-decoration : none;
+}
+#pageTop a:hover {
+ text-decoration : underline;
+}
+/* pageTop */
+
+/* link1 */
+a.link1:link,
+a.link1:visited,
+a.link1:hover {
+ color           : #999999;
+ text-decoration : none;
+}
+a.link1:hover {
+ text-decoration : underline;
+}
+/* link1 */
+
+/* dependLink */
+a.dependLink:link,
+a.dependLink:visited,
+a.dependLink:hover {
+ color           : #999999;
+ text-decoration : none;
+}
+a.dependLink:hover {
+ text-decoration : underline;
+}
+/* dependLink */
+
+
+/***********************************************
+  99.other
+***********************************************/
+ul {
+ list-style-type : none;
+}
+
+ul.normalList {
+ list-style-type : disc;
+ margin-left     : 15px;
+}
+
+
+dl.inlineList dt,
+dl.inlineList dd,
+ul.inlineList li,
+ol.inlineList li,
+.inline {
+ display         : inline;
+}
+
+.bdRed {
+ border          : 1px solid #be1823;
+}
+
+.hpc {
+	display:none;
+}
+.hspI {
+	display:inline;
+}
+.hsp {
+	display:block;
+}
