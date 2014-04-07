@@ -1,9 +1,0 @@
-diff a/README.md b/README.md	(rejected hunks)
-@@ -6,6 +6,7 @@
-  ```
-  test
-  
-++<<<<<<< HEAD
- +test3
- +=======
-  test4
