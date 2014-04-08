@@ -1,0 +1,19 @@
+{
+    "name": "yc/aiit-enpit-wordpress",
+    "description": "AIIT enPiT Wordpress",
+    "authors": [
+	{
+	    "name": "Yoshihide Chubachi",
+	    "email": "yoshi@chubachi.net"
+	}
+    ],
+    "require": {
+	"php": ">=5.4.0",
+	"monolog/monolog": "1.0.*"
+    },
+    "extra": {
+	"heroku": {
+	    "nginx-includes": ["etc/nginx.conf"]
+	}
+    }
+}
