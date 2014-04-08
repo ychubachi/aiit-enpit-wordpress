@@ -13,6 +13,7 @@
     },
     "extra": {
 	"heroku": {
+	    "php-includes": ["etc/php.ini"],
 	    "nginx-includes": ["etc/nginx.conf"]
 	}
     }
