@@ -1,5 +1,9 @@
 	<div id="gNavArea">
+<?php if ( is_home() || is_front_page() ) : ?>
+		<ul id="gNavList">
+<?php else : ?>
 		<ul id="gNavList" class="hsp">
+<?php endif; ?>
 			<li><!--
 			--><a href="/"><!--
 <?php if ( is_home() || is_front_page() ) : ?>
@@ -41,5 +45,8 @@
 			--></a><!--
 	 --></li>
 		</ul>
+<?php if ( is_home() || is_front_page() ) : ?>
+<?php else : ?>
     <a href="/"><img src="/html/images/sp_home.png" width="87" height="28" alt="Home" class="hpc sphome" /></a>
+<?php endif; ?>
 	</div>
